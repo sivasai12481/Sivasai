@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "example" {
     instance_type = "m3.small"
     ami = "jbvieruchnreui"
-    security_groups = "jcknehfkjxhebjf"
+    security_groups = "jcknehfkjxfrcdfcdhebjf"
     tags = {
       name: "ec2-instance"
       owner: "OPF-TEAM"
