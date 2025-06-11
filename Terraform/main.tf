@@ -8,3 +8,7 @@ resource "aws_instance" "example" {
     security_groups = "jcknehfkjxhebjf"
   
 }
+
+resource "aws_api_gateway_api_key" "example" {
+  name = "example"
+}
