@@ -20,7 +20,7 @@ resource "aws_api_gateway_api_key" "example" {
   tags = {
     name: "Instance"
     team: "OPF-Team"
-    release: "25.12.STD0.RC1"
+    release: "25.36.STD0.RC1"
   }
 }
 
