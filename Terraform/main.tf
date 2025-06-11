@@ -9,12 +9,8 @@ resource "aws_instance" "example" {
     tags = {
       name: "ec2-instance"
       owner: "OPF-TEAM"
-<<<<<<< Updated upstream
-      release: "25.36.STD0"
-=======
       release: "25.12.STD0.RC1"
->>>>>>> Stashed changes
-      
+      previousrelease: ""
     }
   
 }
