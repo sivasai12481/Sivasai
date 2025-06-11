@@ -9,6 +9,7 @@ resource "aws_instance" "example" {
     tags = {
       name: "ec2-instance"
       owner: "OPF-TEAM"
+      release: "25.36.STD0"
       
     }
   
