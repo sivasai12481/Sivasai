@@ -21,6 +21,7 @@ resource "aws_api_gateway_api_key" "example" {
     name: "Instance"
     team: "OPF-Team"
     release: "25.36.STD0.RC1"
+    previousrelease: "24.50.STD0.RC1"
   }
 }
 
