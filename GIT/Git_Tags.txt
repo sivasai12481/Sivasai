@@ -1,0 +1,34 @@
+#tag in Git is like a label or bookmark for a specific commit.
+#Tags are most often used to mark important points in your project history, like releases (v1.0 or v2.0)
+
+# to create a tag
+
+git tag Q1.24
+
+git tag -a "Q1.24" -m "second PI of 2025 year"  (will create a tag with specific message)
+
+# To see all the tags
+
+git tag
+
+#to see the details about a tag
+
+git show <tag name>
+
+git show Q1.24
+
+#need to push the tags to remote repository,, otherwise you can't able to see the tags
+
+git push origin Q1.24
+
+git push --tags  (push all the tags)
+
+# delete tag from locally 
+
+git tag -d v1.0
+
+# delete tag from repository
+
+git push origin --delete tag Q1.24
+
+

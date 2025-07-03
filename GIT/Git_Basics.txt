@@ -1,0 +1,58 @@
+#To config the names
+
+git config --global user.name "Your Name"
+
+git config --global user.email "you@example.com"
+
+#To see the config
+
+git config --list
+
+#To set the editor as VS
+
+git config --global core.editor "code --wait"
+
+#To see the version
+
+git --version
+
+#Intializing the Git
+
+git init
+
+# to track the files they are tracked or not
+
+git status
+
+# To add a file
+
+git add <file name>
+
+git add --all
+
+git add --A
+
+#After tracking the files.. you can check again the status
+
+git status
+
+# to untrack the changes
+
+git restore --staged <file name>
+
+# to commit the file
+
+git commit -m "message"
+
+git commit -a -m "message" (where it skips the staging area)
+
+# To check the git history
+
+git log
+
+git log --oneline (for shorter use)
+
+# to see the files which are changed to which commit
+
+git log --stat
+
