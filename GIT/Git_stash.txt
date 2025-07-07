@@ -1,0 +1,3 @@
+#to save the changes of tracked and untracked files
+
+git stash
